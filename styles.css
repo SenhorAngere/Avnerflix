@@ -1,0 +1,66 @@
+body {
+color:gold;
+background:rgb(0, 0, 0);
+margin: 0px;
+font-family: "Baskervville SC", serif;
+
+}
+
+header {
+    border-bottom: solid 2px  rgb(203, 231, 42);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(203, 231, 42)
+
+}
+
+.chamad {
+    background: rgba(3, 19, 252, 0.582);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+div {
+     margin: right 20px; ;
+
+}
+
+.chamada-texto {
+     margin-right:  5%;
+
+}
+
+h1 {
+   font-size: 40px;
+
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.categoria-vídeos { 
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categori {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.categoria-vídeos img {
+     opacity: 0.5;
+     height: 200px;
+}
+
+.categoria-vídeos img:hover {
+    opacity: 1.0;
+    border: 1px solid yellow;
+}
